@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    font-family: 'SUSE';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #687351;
+    color: #C9C1AE;
+    height: 40px;
+    display: flex;
+}
+
+header h1 {
+    flex: 20;
+    padding: 0px 10px 10px 20px;
+}
+
+nav {
+    flex:80;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+}
+
+nav a {
+    color: #9BA17F;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E8E4DB;
+    text-decoration: underline;
+}
+
+hero {
+    background-color: #687351;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hero img {
+    width:150px;
+    
+    border-radius:50%;
+    margin:5px;
+}
+
+hero h2 {
+    color: #E8E4DB;
+    margin: 0;
+}
+
+hero p {
+    color: #C9C1AE;
+}
+
+.cta {
+    padding: 6px;
+    margin: 2px;
+}
+
+.btn-cta {
+    background-color: #C9C1AE;
+    color: #black;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+#about {
+    display: flex;
+    border: 1px solid #9BA17F;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.about-left {
+    flex: 50%;
+    padding-left: 10px;
+}
+
+.about-right {
+    flex: 50%;
+    padding-left: 15px;
+}  
+
+td {
+    width: 10%;
+}
+
+.title {
+    text-align: center;
+}
+
+#skills{
+    display: flex;
+    gap: 5;
+    border: 1px solid #C9C1AE;
+    margin: 20px;
+}
+
+.skills-left {
+    flex: 50;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skills-right {
+    flex: 50;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#progress {
+    background-color: #687351;
+}
+
+#progress > div {
+    background-color: #9BA17F;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
+
+#Education {
+    display: flex;
+    gap: 5;
+    border: 1px solid #9BA17F;
+    margin: 30px;
+}
+
+.Education-left {
+    flex: 30;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #687351;
+    
+}
+
+.Education-right {
+    flex: 70;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#Experience {
+    display: flex;
+    gap: 5;
+    border: 1px solid #9BA17F;
+    margin: 30px;
+    
+}
+
+.Experience-left {
+    flex: 30;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #687351;
+}
+
+.Experience-right {
+    flex: 70;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#contact {
+    display: flex;
+    gap: 8;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.left-contact {
+    flex: 50;
+    padding: 5px 0px 7px 10px;
+}
+
+.left-contact input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #687351;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.left-contact textarea {
+    width: 100%;
+    height: 120px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: 1px solid #E8E4DB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #9BA17F;
+    resize: none;
+
+}
+
+.right-contact {
+    flex: 50;
+    padding-top: 5px 10px 5px 15px;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #687351;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ccc;
+}   
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    background-color: #ccc;
+    padding: 10px;
+    line-height: normal;
+}
+
+.icon sosmed {
+    margin-right: 4px;
+    margin-bottom: 0;
+    color: #427aa1;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icon-sosmed:hover {
+    color: #064789;
+}
+
+footer h3 {
+    font-size: 23px;
+    color: #064789;
+    padding: 2px;
+    margin: 2px;
+}
+
+footer p {
+    color: #064789;
+    margin: 2px;
+    padding: 3px;
+}
+
+
+
+
+
