@@ -267,6 +267,14 @@ footer p {
     padding: 3px;
 }
 
+/* Media Query */
+@media screnn and (max-width: 768px){
+    h1 {
+        display: none;
+    }
+    
+}
+
 
 
 
