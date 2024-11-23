@@ -267,17 +267,36 @@ footer p {
     padding: 3px;
 }
 
-/* Media Query */
 @media screen and (max-width: 768px){
-  header {
-      flex-direction: column;
-  }
-    
+   header {
+    flex-direction:column;
+   }
+   
    header h1 {
-        display: none;
-    }
+    display: none;
+   }
+   
+   nav {
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+   }
+   
+   .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     
-}
+   }
+   
+    #about {
+        flex-direction: column;
+    } 
+     
+    .about-right {
+        flex-direction: ;
+    }
+   
 
 
 
